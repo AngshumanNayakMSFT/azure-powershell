@@ -18,7 +18,7 @@
         - Additional information about change #1
 -->
 ## Current Release
-
+* The examples used upper case storage account name. This will fail as SRP doesn't accept upper case alphabets. Modified all 3 examples to use lower case alphabets.  
 ## Version 4.2.1
 * Obsolete following parameters in new and set Storage Account cmdlets: EnableEncryptionService and DisableEncryptionService, since Encryption at Rest is enabled by default and can't be disabled.
     - New-AzureRmStorageAccount
